@@ -155,8 +155,8 @@ aside {
 
 .functionality {
     color: white;
-    background-color: #287b8a;
-    border: 1px solid #287b8a;
+    background-color: rgba(97, 77, 221, 75%);
+    border: 1px solid rgba(97, 77, 221, 75%);
     border-radius: 1rem;
     padding: 2rem 2.5rem;
     font-size: 1.8rem;
@@ -167,8 +167,8 @@ aside {
 }
 .functionality:hover {
     background-color: white;
-    border: 1px solid #287b8a;
-    color: #287b8a;
+    border: 1px solid rgba(97, 77, 221, 75%);
+    color: rgba(97, 77, 221, 75%);
 }
 
 .btn-delete {
@@ -197,13 +197,13 @@ li {
 }
 
 .active {
-    background-color: #287b8a;
+    background-color: rgba(97, 77, 221, 75%);
     color: white;
     font-weight: bold;
     border-radius: 1rem;
 }
 .active:hover {
-    background-color: #287b8a !important;
+    background-color: rgba(97, 77, 221, 75%) !important;
     color: white !important;
     font-weight: bold !important;
 }
@@ -228,8 +228,8 @@ li {
 
 .btn-premium {
     background-color: white;
-    color: #287b8a;
-    border: 2px solid #287b8a;
+    color: rgba(97, 77, 221, 75%);
+    border: 2px solid rgba(97, 77, 221, 75%);
     border-radius: 1rem;
     text-decoration: none;
     padding: 1rem 1.6rem;
@@ -238,8 +238,8 @@ li {
 
 .btn-premium:hover {
     color: white;
-    background-color: #287b8a;
-    border-color: #287b8a;
+    background-color: rgba(97, 77, 221, 75%);
+    border-color: rgba(97, 77, 221, 75%);
 }
 
 #modalOpen {
@@ -332,7 +332,7 @@ li {
   }
 
   .item-active {
-      background-color: #287b8a;
+      background-color: rgba(97, 77, 221, 75%);
       color: white;
       font-weight: bold;
   }
