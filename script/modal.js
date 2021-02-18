@@ -52,18 +52,27 @@ document.getElementById('add-functionality').addEventListener('click', event => 
   let selectedItem = document.getElementsByClassName('item-active')[0];
   let block = document.createElement('div');
   block.classList.add('block');
-  block.classList.add('col-6');
-  let buttonDelete = document.createElement('button');
-  buttonDelete.textContent = 'x';
-  buttonDelete.classList.add('btn-delete-block');
-  buttonDelete.addEventListener('click', event => {
-    event.target.parentNode.remove();
-  })
+  let blockHeader = document.createElement('div');
+  blockHeader.classList.add('block-header');
+  let blockBody = document.createElement('div');
+  blockBody.classList.add('block-body');
+  let img = document.createElement('img');
+  img.src = './public/images/more_vert.png'
+  img.classList.add('more_vert');
+  // let buttonDelete = document.createElement('button');
+  // buttonDelete.textContent = 'x';
+  // buttonDelete.classList.add('btn-delete-block');
+  // buttonDelete.addEventListener('click', event => {
+  //   event.target.parentNode.remove();
+  // })
   let span = document.createElement('span');
   span.classList.add('block-label');
   span.textContent = selectedItem.textContent;
-  block.append(buttonDelete);
-  block.append(span);
+  blockHeader.append(span);
+  blockHeader.append(img);
+  // blockHeader.append(buttonDelete);
+  block.append(blockHeader);
+  block.append(blockBody);
   document.getElementById('block-container').append(block);
   modal.style.display = "none";
 });
