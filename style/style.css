@@ -40,6 +40,7 @@ footer {
 .container {
     margin: 5rem !important;
     width: 100%;
+    min-height: 100vh;
 }
 
 main {
@@ -161,3 +162,122 @@ li {
     background-color: #287b8a;
     border-color: #287b8a;
 }
+
+#modalOpen {
+    font-size: 3.6rem;
+    color: white;
+    background-color: #40494b;
+    border: 1px solid #40494b;
+    border-radius: 50%;
+    padding: 1rem 2.7rem;
+    z-index: 99999;
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+}
+
+#modalOpen:hover {
+    background-color: white;
+    color: #40494b;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .ml-auto {
+      margin-left: auto;
+  }
+
+  .modal-content {
+      width: 50rem;
+  }
+
+  .custom-list {
+      padding: 0 !important;
+  }
+  .custom-list-item {
+      padding: 1rem 1.5rem;
+      border: 1px solid #888;
+      border-bottom: none;
+  }
+
+  .custom-list-item:hover {
+      cursor: pointer;
+      background-color: #888;
+      color: white;
+  }
+
+  .item-active {
+      background-color: #287b8a;
+      color: white;
+      font-weight: bold;
+  }
+
+  .custom-list-item:last-child {
+      border-bottom: 1px solid #888;
+  }
+
+  .block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border: 1px solid #003C47;
+      height: 50rem;
+  }
+
+  .btn-delete-block {
+      margin-left: auto;
+      margin-top: 1rem;
+      border: none;
+      background: transparent;
+      font-size: 2rem;
+      color: black;
+  }
+
+  .btn-delete-block:hover {
+      color: red;
+  }
+
+  .block-label {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    /* width: -webkit-fill-available; */
+
+  }
