@@ -1,0 +1,163 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    min-height: 100vh;
+}
+
+header {
+    height: 7.5rem;
+    width: 100%;
+    background-color: #003C47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-label {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+
+/* Footer - Début */
+footer {
+    margin-top: 5rem;
+    background-color: #003C47;
+    /* position: fixed; */
+    /* bottom: 0; */
+    height: 7.55rem;
+    width: 100%;
+}
+
+/* Footer - Fin */
+
+.container {
+    margin: 5rem !important;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    padding-left: 5rem;
+}
+
+aside {
+    width: 20%;
+    padding: 0 ;
+}
+
+#aside-nav {
+    padding: 0 !important;
+}
+
+
+#functionality-container, #my-functionality-container, #functionality-premium-container {
+    /* margin-bottom: 5rem; */
+    /* padding-top: 3rem; */
+    min-height: 10rem;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.functionality {
+    color: white;
+    background-color: #287b8a;
+    border: 1px solid #287b8a;
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.functionality:hover {
+    background-color: white;
+    border: 1px solid #287b8a;
+    color: #287b8a;
+}
+
+.btn-delete {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-left: 1.5rem
+}
+
+.btn-delete:hover {
+    color: red;
+}
+
+li {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    /* height: 100%;
+    width: 100% */
+    padding: 2rem 1.5rem;
+
+}
+
+.active {
+    background-color: #287b8a;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.active:hover {
+    background-color: #287b8a !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    background-color: #f6f6f6;
+    color: black;
+}
+
+.disabled {
+    background-color: #c0c0c0;
+    border: none;
+}
+
+.disabled:hover {
+    background-color: #c0c0c0;
+    border: none;
+    color: white;
+    cursor: default;
+}
+
+.btn-premium {
+    background-color: white;
+    color: #287b8a;
+    border: 2px solid #287b8a;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 1rem 1.6rem;
+    font-weight: bold;
+}
+
+.btn-premium:hover {
+    color: white;
+    background-color: #287b8a;
+    border-color: #287b8a;
+}
