@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Everett";
+    src: url("./font/Everett-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Galyon";
+    src: url("./font/Galyon-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* //titre galyon text evrette border radius 25; */

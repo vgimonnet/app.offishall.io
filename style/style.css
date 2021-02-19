@@ -4,7 +4,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Everett', sans-serif;
     color: black;
     min-height: 100vh;
 }
@@ -17,6 +17,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 2.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Galyon', sans-serif;
 }
 
 #logo-header {
@@ -35,7 +39,7 @@ header {
     cursor: pointer;
     background-color: transparent;
     /* show the menu image */
-    background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+    background-image: url("../public/images/ham.png");
     background-size: 100%;
 }
 
@@ -143,7 +147,7 @@ aside {
     min-height: 10rem;
     width: 100%;
     border: 1px solid black;
-    border-radius: 1rem;
+    border-radius: 2.5rem;
     /* padding-left: 1rem; */
     /* padding-right: 1rem; */
     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
@@ -157,7 +161,7 @@ aside {
     color: white;
     background-color: rgba(97, 77, 221, 75%);
     border: 1px solid rgba(97, 77, 221, 75%);
-    border-radius: 1rem;
+    border-radius: 2.5rem;
     padding: 2rem 2.5rem;
     font-size: 1.8rem;
     font-weight: bold;
@@ -345,13 +349,14 @@ li {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      border: 1px solid #003C47;
+      border: 4px solid #E7E7E7;
       height: 50rem;
       width: 48%;
       background-color: #E7E7E7;
-      border: none;
-      border-radius: 1.2rem;
+      /* border: none; */
+      border-radius: 2.5rem;
       padding: 0 !important;
+      margin-bottom: 1rem;
   }
 
   .block-header {
@@ -361,6 +366,7 @@ li {
     align-items: center;
     width: 100%;
     padding: 0 1rem;
+    border-radius: 2.5rem;
   }
 
   .btn-delete-block {
@@ -382,6 +388,7 @@ li {
     font-weight: bold;
     font-size: 2rem;
     /* width: -webkit-fill-available; */
+    font-family: 'Galyon', sans-serif;
 
   }
 
@@ -389,7 +396,7 @@ li {
     background-color: #F6F5F5;
     height: calc(100% - 44px);
     width: 100%;
-    border-radius: 1.2rem;
+    border-radius: 2.5rem;
     padding: 1rem;
   }
 

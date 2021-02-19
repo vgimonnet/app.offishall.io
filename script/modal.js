@@ -1,4 +1,5 @@
 let first = true;
+let colors = ['#B3DFE2', '#FF6867', '#614DDD', '#FDDE70', '#8FD49D'];
 document.addEventListener('DOMContentLoaded', () => {
   showNotif();
   clearNotif();
@@ -91,11 +92,15 @@ window.onclick = function(event) {
 }
 
 document.getElementById('add-functionality').addEventListener('click', event => {
+  let color = colors[Math.floor(Math.random() * colors.length)];
   let selectedItem = document.getElementsByClassName('item-active')[0];
   let block = document.createElement('div');
   block.classList.add('block');
+  block.style.backgroundColor = color;
+  block.style.borderColor = color;
   let blockHeader = document.createElement('div');
   blockHeader.classList.add('block-header');
+  blockHeader.style.backgroundColor = color;
   let blockBody = document.createElement('div');
   blockBody.classList.add('block-body');
   let img = document.createElement('img');
